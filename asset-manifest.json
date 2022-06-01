@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/test-githubusers/static/css/main.ee010191.css",
+    "main.js": "/test-githubusers/static/js/main.adbb97fa.js",
+    "static/js/787.004ae3f7.chunk.js": "/test-githubusers/static/js/787.004ae3f7.chunk.js",
+    "index.html": "/test-githubusers/index.html",
+    "main.ee010191.css.map": "/test-githubusers/static/css/main.ee010191.css.map",
+    "main.adbb97fa.js.map": "/test-githubusers/static/js/main.adbb97fa.js.map",
+    "787.004ae3f7.chunk.js.map": "/test-githubusers/static/js/787.004ae3f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee010191.css",
+    "static/js/main.adbb97fa.js"
+  ]
+}
