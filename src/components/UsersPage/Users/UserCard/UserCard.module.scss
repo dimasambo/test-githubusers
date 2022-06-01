@@ -1,0 +1,58 @@
+.usersWrapper {
+  display: flex;
+  flex-direction: column;
+
+  & a.userCardWrapperLink {
+    text-decoration: none;
+    color: black;
+
+    & .userCardWrapper {
+      margin-top: 30px;
+      border-radius: 10px;
+      box-shadow: 0 1px 9px 2px rgba(29, 29, 29, 0.31);
+      height: 100px;
+      padding: 30px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      transition: .1s;
+      cursor: pointer;
+
+      &:hover {
+        box-shadow: 0 1px 9px 2px rgba(29, 29, 29, 0.51);
+      }
+
+      & .userCardImgBox {
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+
+        & img {
+          width: 70px;
+          height: 70px;
+        }
+      }
+
+      & .userCardNameBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+
+      & .userCardReposBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        max-width: 160px;
+      }
+
+      & div .userCardInfoName {
+        font-weight: bold;
+
+        & .noData {
+          font-size: 85%;
+        }
+      }
+    }
+  }
+}
